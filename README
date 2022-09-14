@@ -1,0 +1,28 @@
+# L'arbre de compétence des apprenants
+
+## Installation
+
+Lancer la commande 
+`npm install`
+
+## Lancement du serveur 
+
+Lancer la commande
+`npx json-server --watch db.json`
+
+Une fois le serveur lancé, vous pouvez accéder à la liste des ressources disponibles depuis http://localhost:3000/
+
+Les ressources disponibles sont : 
+* http://localhost:3000/apprenants
+Liste des apprenants
+* http://localhost:3000/competences
+Liste des compétences
+* http://localhost:3000/arbre
+Liste des niveaux acquis par apprenant pour chaque compétence
+
+## Consignes
+
+Vous devez développer une application JS permettant de :
+1. afficher la liste des apprenants, et pour chacun la liste des compétences
+2. gérer la liste des apprenants (ajout/modification/suppression)
+3. gérer les niveaux acquis pour chacun des apprenants (ajout/suppresion)

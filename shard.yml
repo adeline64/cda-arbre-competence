@@ -1,0 +1,17 @@
+name: arbre-competences
+version: 0.1.0
+
+authors:
+  - Fang <fang@mi2n.net>
+
+targets:
+  arbre-competences:
+    main: src/arbre-competences.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 1.4.1
+
+license: MIT
